@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 6 Creative website</title>
+  <style>
+    
+
+    header {
+      background: green;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      background: lightblue;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .xyz
+    {
+      align-items: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: slategray;
+    }
+
+    h2 {
+      margin-top: 40px;
+      border-left: 4px solid green;
+      padding-left: 10px;
+    }
+
+    .code-box {
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+    }
+
+    .practice {
+      background: #e9fbe9;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+
+    .box1 {
+      padding: 20px;
+      margin: 10px;
+      background: #cfe3fc;
+    }
+
+    .box2 {
+      padding: 0;
+      margin: 30px;
+      background: #bb5252;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .flex-item {
+      flex: 1;
+      padding: 10px;
+      background: lightgreen;
+      text-align: center;
+    }
+
+    .experiment {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 1.2rem;
+      border: 2px dashed #00a;
+      border-radius: 10px;
+      padding: 10px;
+      background: #eef;
+    }
+
+    .alert {
+      margin-top: 20px;
+      padding: 10px;
+      background: #fff3cd;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+  <header>
+    <h1>HTML + CSS Beginner Practice Guide</h1>
+    <p>Understand basic HTML tags and CSS properties</p>
+  </header>
+  
+  <nav>
+    <a href="#">HTML</a>
+    <a href="#">CSS</a>
+    <a href="#">Practice</a>
+  </nav>
+  
+  <div class="container">
+    <h2>📘 HTML Basics</h2>
+    <div class="code-box"><strong>html</strong> — Root element that wraps entire HTML document.</div>
+    <div class="code-box"><strong>head</strong> — Contains metadata like title, links to CSS, charset.</div>
+    <div class="code-box"><strong>body</strong> — Visible part of HTML page.</div>
+    <div class="code-box"><strong>h1</strong> to <strong>h6</strong> — Headings. h1 is largest.</div>
+    <div class="code-box"><strong>p</strong> — Paragraph text.</div>
+    <div class="code-box"><strong>div</strong> — Generic container block.</div>
+    <div class="code-box"><strong>span</strong> — Inline container.</div>
+    <div class="code-box"><strong>a href</strong> — Hyperlink.</div>
+    <div class="code-box"><strong>ul</strong>, <strong>ol</strong>, <strong>li</strong> — Unordered, ordered lists and items.</div>
+    <div class="code-box"><strong>table</strong> — Table structure with <strong>tr</strong>, <strong>th</strong>, <strong>td</strong></div>
+  
+    <h2>🍂 CSS Basics</h2>
+    <div class="code-box"><strong>color:</strong> Changes text color.</div>
+    <div class="code-box"><strong>background-color:</strong> Sets background.</div>
+    <div class="code-box"><strong>padding:</strong> Space inside the element.</div>
+    <div class="code-box"><strong>margin:</strong> Space outside the element.</div>
+    <div class="code-box"><strong>border:</strong> Adds outline around the element.</div>
+    <div class="code-box"><strong>font-size:</strong> Controls text size.</div>
+    <div class="code-box"><strong>text-align:</strong> Aligns text.</div>
+    <div class="code-box"><strong>display:</strong> Controls layout (block, inline, flex).</div>
+    <div class="code-box"><strong>flexbox:</strong> Layout system for flexible items.</div>
+    <div class="code-box"><strong>box-shadow:</strong> Adds shadow around elements.</div>
+  
+    <h2>🧪 Practice Examples</h2>
+    <div class="practice">
+      <p>Try modifying padding and margin values and observe changes.</p>
+      <div class="xyz">
+      <div class="box1">Box 1: Padding: 20px | Margin: 10px</div>
+      <div class="box2">Box 2: Padding: 0 | Margin: 30px</div>
+      </div>
+      <div class="xyz">
+      <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+      </div>
+      </div>
+      <div class="experiment">Experiment with <strong>text-align</strong>, <strong>font-size</strong>, and <strong>border-radius</strong>!</div>
+  
+      <div class="experiment" style="text-align: center; border: 1px dashed green;">
+        Centered and styled text!
+      </div>
+  
+      <div class="alert">Rounded corner alert box.</div>
+    </div>
+  </div>  
+</body>
+</html>
